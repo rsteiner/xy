@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XY Media Partners - Film Production Company</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="img/logo-wide-black.png" alt="XY Media Partners" class="logo-wide">
+                <img src="img/logo-square-trans-256.png" alt="XY Media Partners" class="logo-square">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About Us</a></li>
+                <li><a href="#team" class="nav-link">Meet the Team</a></li>
+                <li><a href="#contact" class="nav-link">Contact Us</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="media/xy-hero.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Efficiency. Innovation. Creativity.</h1>
+            <p>
+                Built for speed, precision, and creativity—where powerful systems empower powerful storytelling.
+            </p>
+            <a href="#about" class="cta-button">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <p>XY Media Partners is a Los Angeles-based production company founded by a team of entertainment and technology professionals. Launched in the summer of 2024, our mission is to use technology to streamline the film and television production process while unlocking new channels for distribution revenue.</p>
+                <p>We operate with an eye for talent, a deep command of cutting-edge tools, and a commitment to production efficiency. By running multiple projects in parallel, we maximize both creative output and business value.</p>
+                <p>At XY, we believe technology should empower—not replace—human creativity. That's why we use AI to eliminate busywork, surface insights, and help our teams focus on what matters most: making exceptional content.</p>
+                <p><img src="img/la.jpg" alt="Los Angeles - Home of XY Media Partners" class="about-image"></p>
+            </div>
+            <img src="img/accents/left.png" alt="Audio Meter" class="audio-meter">
+        </div>
+        <img src="img/accents/top-left.png" alt="" class="viewfinder-accent top-left">
+        <img src="img/accents/top-right.png" alt="" class="viewfinder-accent top-right">
+        <img src="img/accents/bottom-left.png" alt="" class="viewfinder-accent bottom-left">
+        <img src="img/accents/bottom-right.png" alt="" class="viewfinder-accent bottom-right">
+        <div class="rec-indicator">
+            <div class="rec-dot"></div>
+            <span>REC</span>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2>Meet the Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="img/team/aly-acosta-xy-media.png" alt="Aly Acosta - XY Media Partners" class="member-photo-img">
+                    </div>
+                    <h3>Aly Acosta</h3>
+                    <p class="member-title">Partner, Creative Operations</p>
+                    <div class="bio-container">
+                        <p class="member-bio-short">Aly Acosta is a seasoned filmmaker and performer with over 15 years of experience in front of and behind the camera. A Miami native, Aly got her start acting in high school theater before transitioning into film and television.</p>
+                        <p class="member-bio-full" style="display: none;">Aly Acosta is a seasoned filmmaker and performer with over 15 years of experience in front of and behind the camera. A Miami native, Aly got her start acting in high school theater before transitioning into film and television, where she has since built a diverse portfolio as a producer, director, and writer.<br><br>Aly has spearheaded a wide range of independent projects, developing a reputation for creative versatility and sharp storytelling instincts. Her work spans narrative shorts, indie features, and experimental formats—always grounded in a passion for character and emotional authenticity.<br><br>One of her most memorable experiences was working under the direction of Michael Keaton in Knox Goes Away, a role that further deepened her understanding of performance and direction at the highest level.<br><br>With a deep love for film—she's watched Ocean's Eleven over 100 times—Aly brings both a cinephile's heart and a producer's discipline to XY Media Partners, where she helps lead creative development and production execution across the slate.</p>
+                        <button class="bio-toggle" onclick="toggleBio(this)">Read More</button>
+                    </div>
+                    <a href="#" class="linkedin-link" target="_blank" aria-label="Aly Acosta LinkedIn">
+                        <img src="img/social/linkedin.svg" alt="LinkedIn" width="24" height="24">
+                    </a>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="img/team/william-barrantes-xy-media.png" alt="William Barrantes - XY Media Partners" class="member-photo-img">
+                    </div>
+                    <h3>William Barrantes</h3>
+                    <p class="member-title">Partner, Production</p>
+                    <div class="bio-container">
+                        <p class="member-bio-short">William Barrantes brings a lifelong passion for storytelling and two decades of professional experience in film and television to XY. He got his start in the industry as a kid and transitioned into distribution in 2002.</p>
+                        <p class="member-bio-full" style="display: none;">William Barrantes brings a lifelong passion for storytelling and two decades of professional experience in film and television to XY. He got his start in the industry as a kid and transitioned into distribution in 2002, where he quickly developed an expertise in global rights management and international sales. Over the years, William has produced numerous feature films that have been released by companies including Lionsgate and Fabrication Films, combining sharp business instincts with a deep understanding of what sells—both domestically and abroad.<br><br>A proud member of the Producers Guild of America, William's creative roots run just as deep as his business credentials. He spent 10 years touring the country as an improv comedian, and still considers his time as a Universal Studios tour guide one of the best jobs he's ever had. His breadth of industry knowledge, quick wit, and grounded perspective make him an essential force behind XY's strategy, development, and execution.</p>
+                        <button class="bio-toggle" onclick="toggleBio(this)">Read More</button>
+                    </div>
+                    <a href="#" class="linkedin-link" target="_blank" aria-label="William Barrantes LinkedIn">
+                        <img src="img/social/linkedin.svg" alt="LinkedIn" width="24" height="24">
+                    </a>
+                </div>
+                <div class="team-member" style="display: none;">
+                    <div class="member-photo">
+                        <div class="photo-placeholder">Photo</div>
+                    </div>
+                    <h3>Brandon Gilbert</h3>
+                    <p class="member-title">Partner, Distribution</p>
+                    <div class="bio-container">
+                        <p class="member-bio-short">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p class="member-bio-full" style="display: none;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <button class="bio-toggle" onclick="toggleBio(this)">Read More</button>
+                    </div>
+                    <a href="#" class="linkedin-link" target="_blank" aria-label="Brandon Gilbert LinkedIn">
+                        <img src="img/social/linkedin.svg" alt="LinkedIn" width="24" height="24">
+                    </a>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="img/team/josh-keeler-xy-media.png" alt="Josh Keeler - XY Media Partners" class="member-photo-img">
+                    </div>
+                    <h3>Josh Keeler</h3>
+                    <p class="member-title">Partner, Creative</p>
+                    <div class="bio-container">
+                        <p class="member-bio-short">Josh Keeler is a seasoned multi-hyphenate with 17 years of experience in the entertainment industry, trained at UC Santa Barbara's prestigious BFA Acting Conservatory and recognized nationally as the face of Coca-Cola.</p>
+                        <p class="member-bio-full" style="display: none;">Josh Keeler is a seasoned multi-hyphenate with 17 years of experience in the entertainment industry. He studied theatre at UC Santa Barbara, where he trained at the university's prestigious BFA Acting Conservatory. His early career was defined by a string of performances in independent films, television pilots, and digital shorts—many of which he also helped write and produce. In 2008, Josh became nationally recognized as the face of Coca-Cola, lending his image to one of the brand's most visible campaigns of the decade.<br><br>A dedicated collaborator and story-first creative, Josh has played a key role in developing new stage work in both Los Angeles and Santa Barbara, often serving as a bridge between emerging writers and live audiences. He brings a rare combination of classical discipline and creative spontaneity to every production, with instincts sharpened by years both in front of and behind the camera. When he's not working, you can find him rewatching Forrest Gump—and yes, crying every time.</p>
+                        <button class="bio-toggle" onclick="toggleBio(this)">Read More</button>
+                    </div>
+                    <a href="#" class="linkedin-link" target="_blank" aria-label="Josh Keeler LinkedIn">
+                        <img src="img/social/linkedin.svg" alt="LinkedIn" width="24" height="24">
+                    </a>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="img/team/rob-steiner-xy-media.png" alt="Rob Steiner - XY Media Partners" class="member-photo-img">
+                    </div>
+                    <h3>Rob Steiner</h3>
+                    <p class="member-title">Partner, Business/Technology</p>
+                    <div class="bio-container">
+                        <p class="member-bio-short">Rob Steiner is a media entrepreneur, venture capitalist, and technology executive with two decades of experience across software, telecom, and blockchain.</p>
+                        <p class="member-bio-full" style="display: none;">Rob Steiner is a media entrepreneur, venture investor, and technology executive with two decades of experience across software, telecom, and blockchain. At XY, Rob drives strategic vision and production strategy—blending creative development with deep technical and operational expertise.<br><br>He is also the founder of XG Innovation, an investment platform focused on frontier technologies like decentralized infrastructure, AI, and entertainment tech. Rob previously led blockchain and wireless innovation at DISH Network and advised the Solana Foundation during its early growth. His career spans engineering at Vimeo, founding early online marketplaces, and leading investments across the sports and media landscape.<br><br>Rob operates at the intersection of storytelling and technology, helping XY Media Partners build the next generation of film and TV.</p>
+                        <button class="bio-toggle" onclick="toggleBio(this)">Read More</button>
+                    </div>
+                    <a href="https://www.linkedin.com/in/rob-steiner/" class="linkedin-link" target="_blank" aria-label="Rob Steiner LinkedIn">
+                        <img src="img/social/linkedin.svg" alt="LinkedIn" width="24" height="24">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Talk</h3>
+                    <p>Have something worth making? Drop us a line. We're always looking for smart partners and bold ideas.</p>
+                </div>
+                <div class="contact-form">
+                    <script src="https://js-na2.hsforms.net/forms/embed/243306584.js" defer></script>
+                    <div class="hs-form-frame" data-region="na2" data-form-id="a1f62298-afd9-44c4-be64-45c6334b0265" data-portal-id="243306584"></div>
+                </div>
+            </div>
+        </div>
+        <img src="img/accents/bottom.png" alt="" class="scale-indicator">
+        <img src="img/accents/top-left.png" alt="" class="viewfinder-accent top-left">
+        <img src="img/accents/top-right.png" alt="" class="viewfinder-accent top-right">
+        <img src="img/accents/bottom-left.png" alt="" class="viewfinder-accent bottom-left">
+        <img src="img/accents/bottom-right.png" alt="" class="viewfinder-accent bottom-right">
+        <div class="rec-indicator">
+            <div class="rec-dot"></div>
+            <span>REC</span>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 XY Media Partners. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
