@@ -138,6 +138,28 @@
                                                     </tbody>
                                                 </table>
                                             </td>
+                                            <td style="padding: 0px; color: rgb(0, 0, 0);">
+                                                <a id="calendar" href="" style="text-decoration: none; color: rgb(0, 0, 0); font-size: 14px;">
+                                                    <span>Schedule a Meeting</span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr style="vertical-align: middle; height: 25px;">
+                                            <td width="30" style="vertical-align: middle;">
+                                                <table cellpadding="0" cellspacing="0" border="0"
+                                                    style="vertical-align: -webkit-baseline-middle; font-size: medium; font-family: Verdana; width: 30px;">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="vertical-align: bottom;"><span
+                                                                    style="display: inline-block; background-color: rgb(0, 0, 0);"><img
+                                                                        src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/link-icon-dark-2x.png"
+                                                                        alt="website" width="13"
+                                                                        style="display: block; background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));"></span>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
                                             <td style="padding: 0px; color: rgb(0, 0, 0);"><a
                                                     href="https://xymediapartners.com"
                                                     style="text-decoration: none; color: rgb(0, 0, 0); font-size: 14px;"><span>https://xymediapartners.com</span></a>
@@ -242,31 +264,36 @@
         name: "Rob Steiner",
         title: "Business/Tech",
         email: "rob.steiner@xymediapartners.com",
-        phone: "+1 323 608 7544"
+        phone: "+1 323 608 7544",
+        cal: "https://calendly.com/rob-steiner-xymediapartners/30min?back=1&month=2025-07"
       },
       aly: {
         name: "Aly Acosta",
         title: "Acquisition",
         email: "aly.acosta@xymediapartners.com",
-        phone: "+1 786 239 2717"
+        phone: "+1 786 239 2717",
+        cal: "https://calendly.com/aly-acosta-xymediapartners/30min?back=1&month=2025-07"
       },
       josh: {
         name: "Josh Keeler",
         title: "Development",
         email: "josh.keeler@xymediapartners.com",
-        phone: "+1 925 683-5658"
+        phone: "+1 925 683-5658",
+        cal: "https://calendly.com/josh-keeler-xymediapartners/30min?back=1&month=2025-07"
       },
       william: {
         name: "William Barrantes",
         title: "General Manager",
         email: "william.barrantes@xymediapartners.com",
-        phone: "+1 818 679-2657"
+        phone: "+1 818 679-2657",
+        cal: "https://calendly.com/william-barrantes-xymediapartners/30min?back=1&month=2025-07"
       },
       brandon: {
         name: "Brandon Gilbert",
         title: "Distribution",
         email: "brandon.gilbert@xymediapartners.com",
-        phone: "(714) 860-9705"
+        phone: "+1 714 860-9705",
+        cal: "https://calendly.com/brandon-gilbert-xymediapartners/30min?back=1&month=2025-07"
       }
     };
 
@@ -284,7 +311,7 @@
       document.getElementById('phone').textContent = profile.phone;
       document.getElementById('email').textContent = profile.email;
       document.getElementById('email').href = `mailto:${profile.email}`;
-      document.getElementById('linkedin').href = profile.linkedin;
+      document.getElementById('calendar').href = profile.cal;
     } else {
       document.body.innerHTML = "<p style='color:red;'>User not found.</p>";
     }
